@@ -1,10 +1,10 @@
 # Bulk RNA-seq
 
-- Run locally:
+## Run locally:
  * [Alignment and read counts](bulkRNAseq_STAR.ipynb)
  * [Differentially expressed genes - R DESeq2](bulkRNAseq_DESeq2.ipynb)
 
-- Run on google colab
+## Run in google colab
  * colab.google.com
  * To run R in google colab, use this link: https://colab.research.google.com/notebook#create=true&language=r
  * [Alignment and read counts - for google colab](bulkRNAseq_STAR_colab.ipynb)
