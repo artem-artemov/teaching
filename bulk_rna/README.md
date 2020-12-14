@@ -1,5 +1,7 @@
 # Bulk RNA-seq
 
+[Slides (old) - artemov_bulk_RNAseq.pdf](artemov_bulk_RNAseq.pdf)
+
 ## Run locally:
  * [Alignment and read counts - bulkRNAseq_STAR.ipynb](bulkRNAseq_STAR.ipynb)
  * [Differentially expressed genes - R DESeq2 - bulkRNAseq_DESeq2.ipynb](bulkRNAseq_DESeq2.ipynb)
