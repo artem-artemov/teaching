@@ -9,7 +9,7 @@
  * To run R in google colab, use this link: https://colab.research.google.com/notebook#create=true&language=r
  * [Single cell RNA-seq with Seurat - scRNAseq.ipynb](scRNAseq.ipynb)
 
-Package installation takes 23 minutes.
+Package installation takes 23 minutes. You can run it 15-20 minutes before we start, if you have time.
 
 '''{r}
 install.packages('Seurat')
