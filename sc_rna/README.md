@@ -11,16 +11,16 @@
 
 Package installation takes 23 minutes. You can run it 15-20 minutes before we start, if you have time.
 
-'''{r}
+```{r}
 install.packages('Seurat')
-'''
+```
 
 ## Run locally:
 Do not run the first cell (with package installation)  [Single cell RNA-seq with Seurat - scRNAseq.ipynb](scRNAseq.ipynb)
 
 Use the following conda environment: ```environment.yml```
 
-```
+```{bash}
 # do not download from git with wget, use git clone or wget from 'raw'
 # git clone https://github.com/artem-artemov/teaching/blob/main/sc_rna/environment.yml
 # (or)
