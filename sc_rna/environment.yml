@@ -1,0 +1,13 @@
+name: scRNA
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - r-base
+  - r-curl
+  - jupyterlab
+  - r-hdf5r
+  - r-seurat
+  - r-pheatmap
+  - r-ggplot2
+
