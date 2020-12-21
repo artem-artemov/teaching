@@ -49,3 +49,11 @@ dependencies:
 
 ```
 
+# Further reading
+ * Official Seurat tutorial: https://satijalab.org/seurat/v3.1/pbmc3k_tutorial.html
+ * Doublets in 10X data, doublet filtering
+   * Scrublet tool: https://github.com/AllonKleinLab/scrublet
+ * Other packages:
+   * scanpy: https://scanpy.readthedocs.io/en/stable/
+   * scvelo -- RNA velocity: https://scvelo.readthedocs.io/
+   * pagoda2: https://github.com/kharchenkolab/pagoda2 
