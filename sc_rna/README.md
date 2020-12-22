@@ -50,7 +50,9 @@ dependencies:
 ```
 
 # Further reading
- * Official Seurat tutorial: https://satijalab.org/seurat/v3.1/pbmc3k_tutorial.html
+ * Tutorials
+   * Official Seurat tutorial: https://satijalab.org/seurat/v3.1/pbmc3k_tutorial.html
+   * Workshop -- Broad institute: https://broadinstitute.github.io/2019_scWorkshop/
  * Doublets in 10X data, doublet filtering
    * Scrublet tool: https://github.com/AllonKleinLab/scrublet
  * Other packages:
