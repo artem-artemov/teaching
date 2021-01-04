@@ -23,6 +23,12 @@ m = m[,c(1, 3:10)]
 ## 2. Single cell RNA-seq
 Проанализируйте датасет GSM4654673: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4654673
 
+Постройте UMAP embedding для клеток, определите кластеры, найдите маркерные гены, определяющие кластеры.
+
+Нарисуйте:
+* UMAP embedding, раскраска по кластерам
+* Экспрессия генов на UMAP embedding: MKI67, COL1A1, CD3D, CD8A, CHGA и другие гены, которые покажутся вам интересными.
+
 barcodes (cells):
 ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4654nnn/GSM4654673/suppl/GSM4654673_T214_barcodes.tsv.gz
 
