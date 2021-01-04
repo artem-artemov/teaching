@@ -14,6 +14,8 @@ Experiment design: https://www.ebi.ac.uk/gxa/experiments-content/E-GEOD-139813/r
 Найдите дифференциально экспрессирующиеся гены между контрольными образцами и образцами, обработанными интерфероном.
 Какие гены наиболее up- и downregulated? Назовите также p-value, FDR и fold change
 
+Покажите таблицу с наиболее дифференциально экспрессируемыми генами (упорядочены по p-value).
+
 Нарисуйте:
 * Volcano plot
 * Heatmap для 15 наиболее значимо дифференциально экспрессируемых генов
@@ -36,6 +38,7 @@ m = m[,c(1, 3:10)]
 Нарисуйте:
 * UMAP embedding, раскраска по кластерам
 * Экспрессия генов на UMAP embedding: MKI67, COL1A1, CD3D, CD8A, CHGA и другие гены, которые покажутся вам интересными.
+* dotplot c генами-маркерами кластеров
 
 barcodes (cells):
 ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4654nnn/GSM4654673/suppl/GSM4654673_T214_barcodes.tsv.gz
