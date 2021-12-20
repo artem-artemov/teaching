@@ -39,6 +39,8 @@ channels:
   - conda-forge
   - bioconda
 dependencies:
+  - python
+  - r-essentials
   - r-base
   - r-curl
   - jupyterlab
