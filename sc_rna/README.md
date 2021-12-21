@@ -28,7 +28,7 @@ Use the following conda environment: ```environment.yml```
 
 conda env create -f environment.yml
 
-conda activate bulkRNA
+conda activate scRNA
 ```
 
 
