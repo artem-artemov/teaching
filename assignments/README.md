@@ -43,10 +43,10 @@ m = m[,c(1, 3:10)]
 * dotplot c генами-маркерами кластеров
 
 barcodes (cells):
-ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4654nnn/GSM4654673/suppl/GSM4654673_T214_barcodes.tsv.gz
+https://adameykolab.srv.meduniwien.ac.at/share/teaching/scRNAseq/neuroblastoma/GSM4654673/barcodes.tsv.gz
 
 Features (genes):
-ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4654nnn/GSM4654673/suppl/GSM4654673_T214_features.tsv.gz
+https://adameykolab.srv.meduniwien.ac.at/share/teaching/scRNAseq/neuroblastoma/GSM4654673/features.tsv.gz
 
 Count matrix:
-ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4654nnn/GSM4654673/suppl/GSM4654673_T214_matrix.mtx.gz
+https://adameykolab.srv.meduniwien.ac.at/share/teaching/scRNAseq/neuroblastoma/GSM4654673/matrix.mtx.gz
