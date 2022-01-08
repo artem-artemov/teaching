@@ -31,6 +31,28 @@ m = m[,2:10]
 # вытащить только колонки 1 и с 3 по 10
 m = m[,c(1, 3:10)]
 ```
+Загрузка данных и создание матрицы каунтов (убираем мервые 2 столбца -- идентификаторы генов, столбцы, начиная с третьего -- матрица каунтов.
+```{r}
+#Загрузка таблицы каунтов. Разделитель - таб (\t)
+tab = read.table('raw_counts.tab', header=T, sep='\t')
+tab
+
+#удаляем дупликаты
+tab = tab[!duplicated(tab[,2]),]
+#таблица каунтов
+M = tab[,3:ncol(tab)]
+#название рядов - имена генов
+rownames(M) = tab[,2]
+M
+```
+
+Загружаем таблицу с метаданными, упорядочиваем её в том порядке, в котором колонки в матрице каунтов.
+```{r}
+design = read.table('design.tab', sep='\t', header=T)
+rownames(design) = design[,1]
+design = design[colnames(M),]
+design
+```
 
 ## 2. Single cell RNA-seq
 Проанализируйте датасет GSM4654673: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4654673
